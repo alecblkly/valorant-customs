@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 function SidearmSelect() {
    const sidearms = ['Classic', 'Shorty', 'Frenzy', 'Ghost', 'Sheriff'];
-   const [sidearm, setSidearm] = useState();
+   const [sidearm, setSidearm] = useState(0);
 
    return (
       <div className="random-gun">
